@@ -1,0 +1,8 @@
+apiVersion: skaffold/v1alpha2
+kind: Config
+build:
+  artifacts:
+  - imageName: sorenmat/skaffold-no-manifest-example
+deploy:
+  kubectl:
+    manifests:
